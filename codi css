@@ -1,0 +1,40 @@
+body div.container-fluid .container.container_general div button.btn{
+    background-color: transparent !important;
+    color: black;
+    border-color: black;
+box-shadow: none;
+    border-radius: 0;
+}
+
+body div.container-fluid .container.container_general div button.btn:hover {
+    background-color: black !important;
+    color: white;
+}
+
+body div.container-fluid .container.container_general div container-restaurant {
+    text-align: center;
+}
+
+body div.container-fluid .container.container_general div button.button {
+    background-color: red;
+}
+
+body div.container-fluid .container.container_general container_restaurant * {
+    padding-bottom: -10px !important;
+}
+
+body div.container-fluid .container.container_general {margin-top: 150px !important;}
+
+body div.container-fluid .container.container_general div img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+margin-top: 5px;
+}
+
+.container.container_general.sombra_general {
+    border-radius: 0 !important;
+}
