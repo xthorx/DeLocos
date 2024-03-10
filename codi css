@@ -38,3 +38,41 @@ margin-top: 5px;
 .container.container_general.sombra_general {
     border-radius: 0 !important;
 }
+
+
+container_products container-header-cart.mt-2 {
+    margin: 0 !important;
+    background-image: url(https://i.ibb.co/QXd1fqC/Dise-o-sin-t-tulo.png);
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+}
+
+container_products .container-fluid.container_not_background_imagen.mt-2 {
+    margin-top: 0 !important;
+}
+
+container_products container-header-cart .col-10 reload_container.cpointer.products-restaurant img.pull-left {
+    display: none !important;
+}
+
+container_products container-header-info-restaurant text_container.word_general_delivery {
+    text-align: center;
+}
+
+
+container_products container-header-info-restaurant text_container.word_general_delivery {
+    text-align: center;
+}
+
+container_products container-products-cart container-categories a.chips-general {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+container_products container-products-cart container-categories a.chips-general:hover {
+    background-color: black !important;
+    color: white !important;
+}
