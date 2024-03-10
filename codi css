@@ -69,10 +69,21 @@ container_products container-products-cart container-categories a.chips-general 
     background-color: white !important;
     color: black !important;
     border: 1px solid black;
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 container_products container-products-cart container-categories a.chips-general:hover {
     background-color: black !important;
+    color: white !important;
+}
+
+container_products container-header-cart container-chip{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black;
+    border-radius: 0 !important;
+}
+container_products container-header-cart container-chip:hover{
+  background-color: black !important;
     color: white !important;
 }
